@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:wght@500&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif; */
+
+*{
+    margin: 0;
+    padding:0 ;
+}
+/* index.html */
+/* header */
+.superior{
+    height: 55px;
+    background-color: rgba(14, 14, 14, 0.95);
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    top: 10px;
+    left: 1270px;
+    padding: 5px;
+}
+header a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+header a:hover{
+  color: rgb(247, 220, 181);
+}
+/* fin del header */
+
+/* main */
+main{
+  height: 97vw;
+  width: 100%;
+  background-color: rgba(21, 21, 21, 0.95);
+}
+
+/* banner */
+.imgfondo{
+  background-color: rgba(21, 21, 21, 0.95);
+  background-image:url(../multimedia/fondo-index.jpg) ;
+  width: 100vw;
+  height: 55vw;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.titulo-principal{
+  letter-spacing: 4px;
+  z-index: 2;
+  font-family: 'montserrat';
+  font-size: 60px;
+  position: relative;
+  top: 435px;
+  right: 100px;
+}
+.titulo-secundario h2{
+  letter-spacing: 4px;
+  z-index: 2;
+  font-family:'montserrat';
+  font-size: 30px;
+  position: relative;
+  top: 689px;
+  left:800px ;
+  color: #000000;
+}
+/* (h1 general del proyecto) */
+h1{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 800px;
+}
+.segundo-nav{
+  height: 80px;
+  background-color: rgba(14, 14, 14, 0.1);
+}
+.segundo-nav ul{
+  margin-left: 23%;
+padding-top: 20px ;
+}
+.inferior{
+  display: inline-block;
+  list-style: none;
+  width:33%;
+}
+.segundo-nav a{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight:bold;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.segundo-nav a:hover{
+  color: rgb(247, 220, 181);
+}
+
+.galeria{
+    width: 33%;
+    display: inline-block;
+    height: auto;
+}
+/* fin del main */
+
+/* footer */
+footer{
+    background-color: rgba(14, 14, 14, 0.95);
+}
+
+.video-recorrido{
+  display:inline-block ;
+  width: 33%;
+}
+.redes{
+  display: inline-block;
+  position: relative;
+  left: 1320px;
+  bottom: 200px;
+}
+ .redes i{
+  color:#ffffff;
+  font-size: 50px;
+  letter-spacing: 50px;
+ }
+.copyright{
+  display: inline-block;
+  position:relative ;
+  left: 820px;
+  bottom: 130px;
+  color: #ffffff;
+  font-family: 'monserrat';
+  font-size: 20 px;
+}
+.minimapa{
+    display: inline-block;
+    width: 65vw;
+    height: 30vh;
+    overflow: hidden;
+}
+/* fin del footer */
+
+/* Contactos */
+
+.main-tipo-dos{
+  background-color: rgba(61, 61, 61, 0.9);
+  overflow: hidden;
+}
+
+.comentarios{
+  display: inline;
+  position: relative;
+  left: 3%;
+}
+
+.form-textarea{
+  position: relative;
+  top: 200px; 
+}
+
+#textarea-contacto
+{
+  height: 350px;
+  width: 700px;
+  resize: none;
+  overflow: auto;
+  background-color: #0e0e0e;
+  color: #ffffff;
+  font-size: 20px;
+}
+.segundo-titulo{
+  display: inline-block;
+  width: 55%;
+}
+h2{ 
+  position: relative;
+  left: 30%;
+  padding-top: 100px;
+  font-size: 40px;
+  color: #ffffff;
+}
+.segundo-titulo p{
+  position: relative;
+  left: 10%;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h3{
+  position: relative;
+  top: 130px;
+  left: 50px;
+  color:#ffffff;
+}
+.notebook{
+  display: inline-block;
+  position: relative;
+  left: 62%;
+  bottom: 550px;
+}
+
+.para-contacto{
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  bottom: 200px;
+  left: 400px;
+}
+
+.nombres{
+  width: 600px;
+  height: 40px;
+  margin-top: 50px;
+  background-color: #0e0e0e;
+  font-size: 20px;
+  font-family: 'monserrat';
+  color: #ffffff;
+}
+.enviar{
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  width: 170px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #0e0e0e;
+  font-size: 16px;
+}
+
+#main-contacto{
+  height: 950px;
+}
+
+.footer-tipo-dos{
+  background-color: rgba(14, 14, 14, 0.95);
+  height: 180px;
+}
+.redes-dos{
+  display: inline-block;
+  position: relative;
+  left: 880px;
+  top: 50px;
+}
+.redes-dos i{
+  color:#ffffff;
+  font-size: 40px;
+  letter-spacing: 50px;
+ }
+ .copyright-dos{
+  display: inline-block;
+  position:relative ;
+  left: 430px;
+  top: 120px;
+  color: #ffffff;
+  font-family: 'monserrat';
+  font-size: 20px;
+ }
+/* Vender o alquilar */
+.vende-o-alquila{
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 90px;
+  font-size: 30px;
+}
+.botones{
+  display: inline-block;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.button{
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  width: 170px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #0e0e0e;
+  font-size: 16px;
+}
+
+.para-vender{
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  top: 18px;
+  width: 600px;
+}
+
+.nombres-apellidos{
+  display: block;
+  height: 30px;
+  width: 450px;
+  margin-top: 30px;
+  background-color: #0e0e0e;
+  color: #ffffff;
+  font-size: 20px;
+}
+#tipo{
+  margin-bottom: 50px;
+}
+
+#acerca-de{
+  width: 500px;
+  height: 300px;
+  background-color: #0e0e0e;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.casa-de-campo{
+  display: inline-block;
+  position: absolute;
+  left: 30%;
+  top: 5.5%;
+}
+
+#casa-de-campo{
+  height: 100vh;
+}
+
+.main-tipo-tres{
+  background-color: rgba(61, 61, 61, 0.9);
+  overflow: hidden;
+  height: 1050px;
+}
+
+/* Alojamiento y hoteles */
+.ciudades{
+  display: inline-block;
+  width: 33%;
+}
+.hoteles{
+  width: 100%;
+  height: 400px;
+  padding: 40px;
+}
+
+.ciudades p{
+padding-left: 125px;
+color: #ffffff;
+font-family: 'monserrat';
+font-size: 48px;
+}
+
+.main-tipo-cuatro{
+  height: 1050px;
+  background-color: rgba(21, 21, 21, 0.95);
+}
+
+/* Nosotros */
+
+/*  para este archivo en especifico tuve que determinar medidas del body y del main, porque por defult ambos tenian 0 px de alto t no me permitia ver el backround color en todo el fondo, ni tampoco el footer */
+.body-nosotros{
+  width: 100vw;
+  height: 100vh;
+}
+.main-pequeño{
+  width: 100vw;
+  height: 100vh;
+}
+.crecimiento-personal{
+  height: 100%;
+  width: 60%;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#escalera{
+  height: 100%;
+  width: auto;
+}
+.n{
+  position: absolute;
+  left: 350px;
+  top: 200px;
+  color: #ffffff;
+}
+.quienes-somos{
+  color: #ffffff;
+  font-size: 18px;
+  width: 900px;
+  position: absolute;
+  left: 900px;
+  top: 300px;
+}
+/* fin de nosotros */
